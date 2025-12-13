@@ -1,0 +1,205 @@
+很好，這題非常「內行」 👍
+我直接用「Java 面試官視角」告訴你：
+👉 他們不是問 CLRS 書名，而是「包裝成實作題」在問 CLRS 核心章節
+
+一、總覽：Java 面試最愛的 CLRS 題型（Top 10）
+
+面試官心裡在想的其實是：
+「你寫不寫得出來？」＋「你選得對資料結構嗎？」
+
+① Binary Tree / BST（CLRS Ch. 12）
+
+🔥 出題率：★★★★★
+
+常見面試題
+
+驗證是否為 BST
+
+BST 中序走訪
+
+最近共同祖先（LCA）
+
+最大深度 / 是否平衡
+
+面試官要聽的關鍵字
+
+Inorder = sorted
+
+Recursion / Stack
+
+O(h) vs O(n)
+
+② Red-Black Tree（CLRS Ch. 13）
+
+🔥 出題率：★★★★☆
+
+⚠ 幾乎不叫你寫 RB Tree
+
+常見問法
+
+為什麼 TreeMap 是 O(log n)？
+
+RB Tree vs AVL 差異？
+
+為什麼 RB Tree 高度不會太高？
+
+面試官期待你說
+
+「RB Tree 用較寬鬆的平衡，減少旋轉，適合寫多的場景」
+
+③ Hash Table（CLRS Ch. 11）
+
+🔥 出題率：★★★★★
+
+常見題
+
+HashMap 怎麼處理碰撞？
+
+為什麼負載因子是 0.75？
+
+resize 發生什麼事？
+
+Java 專屬追問
+
+Java 8 之後為什麼 bucket 會變紅黑樹？
+
+④ Heap / Priority Queue（CLRS Ch. 6）
+
+🔥 出題率：★★★★☆
+
+常見題
+
+Top K 問題
+
+Merge K Sorted Lists
+
+Median of Data Stream
+
+面試官在看
+
+Heapify O(n) 為什麼不是 O(n log n)
+
+Java PriorityQueue 是 min-heap
+
+⑤ Dynamic Programming（CLRS Ch. 15）
+
+🔥 出題率：★★★★★
+
+必考題型
+
+Knapsack
+
+LCS
+
+Coin Change
+
+面試官看什麼
+
+狀態定義
+
+轉移方程
+
+空間優化
+
+⑥ Graph BFS / DFS（CLRS Ch. 22）
+
+🔥 出題率：★★★★★
+
+常見題
+
+判斷是否有環
+
+拓撲排序
+
+最短路徑（非加權）
+
+Java 關鍵點
+
+用 Queue 還是 Stack？
+
+visited 放哪？
+
+⑦ Shortest Path（CLRS Ch. 24）
+
+🔥 出題率：★★★☆☆
+
+常見問法
+
+Dijkstra vs Bellman-Ford
+
+為什麼 BFS 可以解 unweighted graph？
+
+⑧ Divide & Conquer（CLRS Ch. 4）
+
+🔥 出題率：★★★☆☆
+
+經典
+
+Merge Sort
+
+快速排序為什麼平均 O(n log n)
+
+⑨ Greedy（CLRS Ch. 16）
+
+🔥 出題率：★★★☆☆
+
+常見
+
+Interval Scheduling
+
+Activity Selection
+
+⑩ Amortized Analysis（CLRS Ch. 17）
+
+🔥 出題率：★★★☆☆（資深職位）
+
+Java 對應
+
+ArrayList 擴容
+
+HashMap resize
+
+二、CLRS → Java 面試題「對照表」
+CLRS 章	面試包裝
+BST	驗證樹、走訪
+RB Tree	TreeMap 原理
+Hash	HashMap
+Heap	PriorityQueue
+DP	LeetCode Medium
+Graph	BFS / DFS
+Amortized	resize
+三、Java 面試官「加分回答」範例
+
+Q：為什麼不用 AVL Tree？
+
+✅ 加分答案
+
+「AVL 查詢快，但插入 / 刪除旋轉多，Java 容器選 RB Tree 是工程取捨」
+
+Q：為什麼 BFS 可以求最短路徑？
+
+✅
+
+「在 unweighted graph 中，每一層代表相同步數」
+
+四、你這個背景的最佳準備法（客製）
+
+你有：
+
+5 年 Java
+
+正在規劃 ERP / 系統
+
+👉 建議優先順序
+
+HashMap / ConcurrentHashMap
+
+TreeMap / RB Tree
+
+BFS / DFS
+
+DP（不用太難）
+
+五、一句話總結
+
+Java 面試 = CLRS + Java Collections + 工程解釋能力

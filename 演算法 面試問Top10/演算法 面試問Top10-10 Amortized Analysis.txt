@@ -1,0 +1,7 @@
+⑩ Amortized Analysis（CLRS Ch. 17）
+
+Java 對應
+
+ArrayList 擴容
+
+HashMap resize

@@ -1,0 +1,7 @@
+⑧ Divide & Conquer（CLRS Ch. 4）
+
+經典
+
+Merge Sort
+
+快速排序為什麼平均 O(n log n)

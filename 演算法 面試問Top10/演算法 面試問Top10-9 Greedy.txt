@@ -1,0 +1,7 @@
+⑨ Greedy（CLRS Ch. 16）
+
+常見
+
+Interval Scheduling
+
+Activity Selection

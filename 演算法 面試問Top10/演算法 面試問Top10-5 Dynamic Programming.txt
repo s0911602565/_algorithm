@@ -1,0 +1,17 @@
+⑤ Dynamic Programming（CLRS Ch. 15）
+
+必考題型
+
+Knapsack
+
+LCS
+
+Coin Change
+
+面試官看什麼
+
+狀態定義
+
+轉移方程
+
+空間優化

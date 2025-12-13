@@ -1,0 +1,31 @@
+② Red-Black Tree（CLRS Ch. 13）
+
+幾乎不叫你寫 RB Tree
+
+常見問法
+
+為什麼 TreeMap 是 O(log n)？
+
+RB Tree vs AVL 差異？
+
+為什麼 RB Tree 高度不會太高？
+
+面試官期待你說
+
+「RB Tree 用較寬鬆的平衡，減少旋轉，適合寫多的場景」
+
+③ Hash Table（CLRS Ch. 11）
+
+🔥 出題率：★★★★★
+
+常見題
+
+HashMap 怎麼處理碰撞？
+
+為什麼負載因子是 0.75？
+
+resize 發生什麼事？
+
+Java 專屬追問
+
+Java 8 之後為什麼 bucket 會變紅黑樹？

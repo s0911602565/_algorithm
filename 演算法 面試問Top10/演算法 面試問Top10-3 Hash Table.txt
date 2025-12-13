@@ -1,0 +1,13 @@
+③ Hash Table（CLRS Ch. 11）
+
+常見題
+
+HashMap 怎麼處理碰撞？
+
+為什麼負載因子是 0.75？
+
+resize 發生什麼事？
+
+Java 專屬追問
+
+Java 8 之後為什麼 bucket 會變紅黑樹？

@@ -1,0 +1,18 @@
+① Binary Tree / BST（CLRS Ch. 12）
+常見面試題
+
+驗證是否為 BST
+
+BST 中序走訪
+
+最近共同祖先（LCA）
+
+最大深度 / 是否平衡
+
+面試官要聽的關鍵字
+
+Inorder = sorted
+
+Recursion / Stack
+
+O(h) vs O(n)

@@ -1,0 +1,15 @@
+④ Heap / Priority Queue（CLRS Ch. 6）
+
+常見題
+
+Top K 問題
+
+Merge K Sorted Lists
+
+Median of Data Stream
+
+面試官在看
+
+Heapify O(n) 為什麼不是 O(n log n)
+
+Java PriorityQueue 是 min-heap
